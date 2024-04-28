@@ -36,7 +36,6 @@ a {
 }
 
 a:hover {
-    font-weight: ;
     text-decoration: underline;
     opacity: 100%;
 }
