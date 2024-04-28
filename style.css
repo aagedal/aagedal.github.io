@@ -1,20 +1,77 @@
 body {
-    background-color: #313131;
+    background-color: #191919;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-    color: blanchedalmond;
-    font-size: 42px;
+    color: rgb(0, 110, 178);
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: rgb(0, 129, 209);
+    font-size: 3em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
-    font-size: 22px;
-    color: blanchedalmond;
+    font-size: 1.2em;
+    color: rgb(138, 150, 160);
+    line-height: 1.5em;
+    margin-left: 10px;
+}
+
+a {
+    opacity: 90%;
+    color: rgb(14, 153, 97);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: ;
+    text-decoration: underline;
+    opacity: 100%;
 }
 
 
-footer  {
+footer {
+    background-color: black;
+    color: rgb(77, 39, 71);
+    width: auto;
+    padding: 20px;
     position: sticky;
-    bottom: 10px;
+    bottom: 0;
+    margin-top: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+img:hover {
+    opacity: 90%;
+}
+
+.mainText {
+    float: left;
+    width: 55%;
+    margin: 20px;
+}
+.profile {
+    float: right;
+    max-width: 33%;
+    min-width: 20%;
+    margin-left: auto; 
+    margin-right: 2%;
+    margin-top: 80px;
+    font-size: 0.8em;
 }
