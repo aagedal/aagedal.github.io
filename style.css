@@ -68,15 +68,22 @@ img:hover {
 
 .mainText {
     float: left;
-    width: 55%;
+    max-width: 55%;
+    min-width: 350px;
     margin: 20px;
 }
+
 .profile {
     float: right;
     max-width: 33%;
-    min-width: 20%;
+    min-width: 350px;
     margin-left: auto; 
     margin-right: 2%;
     margin-top: 80px;
     font-size: 0.8em;
+}
+
+.profile img {
+    max-height: 50svh;
+    max-width: fit-content;
 }
