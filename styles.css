@@ -4,6 +4,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -56,6 +58,8 @@ footer {
 
 img {
   width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 5px;
   transition: opacity 0.5s;
 }
@@ -88,6 +92,22 @@ img:hover {
 }
 
 /* Styles for Main Navigation Bar */
+
+.main-nav ul,
+.categories-nav ul,
+.albums-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-nav ul li,
+.categories-nav ul li,
+.albums-nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .main-nav ul {
   list-style-type: none;
   padding: 0;
@@ -187,7 +207,62 @@ img:hover {
   color: white;
 }
 
-/* Add this to your styles.css */
+/* Media query for tablets and larger screens */
+@media (min-width: 600px) {
+  .main-nav ul li,
+  .categories-nav ul li,
+  .albums-nav ul li {
+    display: inline-block;
+  }
+
+  .main-nav ul {
+    text-align: center;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 900px) {
+  .main-nav ul li,
+  .categories-nav ul li,
+  .albums-nav ul li {
+    display: inline-block;
+  }
+
+  .main-nav ul {
+    text-align: center;
+  }
+}
+
+/* Specific adjustments for mobile */
+@media (max-width: 599px) {
+  .main-nav ul li,
+  .categories-nav ul li,
+  .albums-nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .main-nav ul {
+    text-align: left;
+  }
+
+  .categories-nav,
+  .albums-nav {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+  }
+
+  .categories-nav ul,
+  .albums-nav ul {
+    display: block;
+  }
+
+  .modal-content {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
 
 /* The Modal (background) */
 .modal {
