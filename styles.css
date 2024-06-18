@@ -359,10 +359,9 @@ img:hover {
   cursor: pointer;
 }
 
-
-    /* Provenance info styles */
-    #provenanceInfo {
-      color: white;
-      margin-top: 20px;
-      font-size: 14px;
-    }
+/* Provenance info styles  WIP*/
+#provenanceInfo {
+  color: white;
+  margin-top: 20px;
+  font-size: 14px;
+}
