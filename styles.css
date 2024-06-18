@@ -358,3 +358,11 @@ img:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+    /* Provenance info styles */
+    #provenanceInfo {
+      color: white;
+      margin-top: 20px;
+      font-size: 14px;
+    }
