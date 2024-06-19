@@ -127,6 +127,10 @@ img:hover {
   max-width: fit-content;
 }
 
+ul {
+  color: rgb(117, 67, 109);
+}
+
 /* Styles for Main Navigation Bar */
 
 .main-nav ul,
