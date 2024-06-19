@@ -131,6 +131,11 @@ ul {
   color: rgb(117, 113, 109);
 }
 
+li {
+  margin: 5px 0;
+}
+
+
 /* Styles for Main Navigation Bar */
 
 .main-nav ul,
