@@ -112,6 +112,14 @@ img:hover {
   margin: 20px;
 }
 
+.mainContent {
+  display: inline-block;
+  max-width: 55%;
+  min-width: 350px;
+  margin: 20px;
+}
+  
+
 .profile {
   float: right;
   max-width: 33%;
