@@ -262,7 +262,7 @@ img:hover {
   color: white;
 }
 
-/* Media query for tablets and larger screens */
+/* Media query for tablets and larger screens
 @media (min-width: 600px) {
   .main-nav ul li,
   .categories-nav ul li,
@@ -275,7 +275,7 @@ img:hover {
   }
 }
 
-/* Media query for larger screens */
+/* Media query for larger screens
 @media (min-width: 900px) {
   .main-nav ul li,
   .categories-nav ul li,
@@ -288,14 +288,14 @@ img:hover {
   }
 }
 
-/* Specific adjustments for mobile */
+/* Specific adjustments for mobile
 @media (max-width: 599px) {
   .main-nav ul li,
   .categories-nav ul li,
   .albums-nav ul li {
     display: block;
     margin: 5px 0;
-  }
+  } */
 
   .main-nav ul {
     text-align: left;
