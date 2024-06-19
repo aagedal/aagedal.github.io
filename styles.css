@@ -136,7 +136,7 @@ li {
 }
 
 .rulesList {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 
@@ -148,6 +148,7 @@ li {
   padding: 0;
   margin: 0;
   list-style: none;
+  font-size: 0.8em;
 }
 
 .main-nav ul li,
