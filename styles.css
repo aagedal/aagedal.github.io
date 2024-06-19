@@ -128,11 +128,12 @@ img:hover {
 }
 
 ul {
-  color: rgb(117, 113, 109);
+  color: rgb(166, 156, 149);
 }
 
 li {
-  margin: 12px 0;
+  margin: 15px 0;
+  font-size: 1.5em;
 }
 
 
