@@ -133,7 +133,10 @@ ul {
 
 li {
   margin: 15px 0;
-  font-size: 1.5em;
+}
+
+.rulesList {
+    font-size: 1.5em;
 }
 
 
