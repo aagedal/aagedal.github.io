@@ -113,10 +113,10 @@ img:hover {
 }
 
 .mainContent {
-  display: inline-block;
-  max-width: 55%;
+  margin: auto;
+  max-width: 80%;
   min-width: 350px;
-  margin: 20px;
+  padding: 20px;
 }
   
 
