@@ -150,7 +150,7 @@ img:hover {
   padding: 0;
   margin: 0;
   display: flex;
-  background-color: #333;
+  background-color: #000;
 }
 
 .main-nav ul li {
@@ -165,7 +165,7 @@ img:hover {
 }
 
 .main-nav ul li a:hover {
-  background-color: #575757;
+  background-color: #333;
 }
 
 /* Styles for Categories Navigation Bar */
@@ -174,7 +174,7 @@ img:hover {
   padding: 0;
   margin: 0;
   display: flex;
-  background-color: #444;
+  background-color: #222;
 }
 
 .categories-nav ul li {
@@ -189,7 +189,7 @@ img:hover {
 }
 
 .categories-nav ul li a:hover {
-  background-color: #666;
+  background-color: #555;
 }
 
 /* Styles for Albums Navigation Bar */
@@ -198,7 +198,7 @@ img:hover {
   padding: 0;
   margin: 0;
   display: flex;
-  background-color: #555;
+  background-color: #444;
 }
 
 .albums-nav ul li {
@@ -213,7 +213,7 @@ img:hover {
 }
 
 .albums-nav ul li a:hover {
-  background-color: #777;
+  background-color: #666;
 }
 
 #imageContainer img {
@@ -229,18 +229,18 @@ img:hover {
 }
 
 .active-category {
-  background-color: #666; /* Highlight color for active category */
+  background-color: #555; /* Highlight color for active category */
   color: white;
 }
 
 .active-album {
-  background-color: #777; /* Highlight color for active album */
+  background-color: #666; /* Highlight color for active album */
   color: white;
 }
 /* Add these styles to styles.css */
 
 .active-top-nav {
-  background-color: #575757; /* Highlight color for active top-level nav link */
+  background-color: #333; /* Highlight color for active top-level nav link */
   color: white;
 }
 
