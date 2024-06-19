@@ -127,16 +127,10 @@ img:hover {
   max-width: fit-content;
 }
 
-ul {
-  color: rgb(166, 156, 149);
-}
-
-li {
-  margin: 15px 0;
-}
-
 .rulesList {
-    font-size: 1em;
+  font-size: 1em;
+  color: rgb(166, 156, 149);
+  margin: 15px 0;
 }
 
 
