@@ -1,3 +1,13 @@
+/* Import Web Fonts */
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* General styles */
 body {
   background-color: #191919;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
