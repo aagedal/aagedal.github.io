@@ -130,7 +130,10 @@ img:hover {
 .rulesList {
   font-size: 1em;
   color: rgb(166, 156, 149);
-  margin: 15px 0;
+}
+
+.rulesList li {
+   margin: 15px 0;
 }
 
 
