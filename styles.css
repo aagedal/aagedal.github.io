@@ -151,7 +151,7 @@ img:hover {
 .categories-nav ul,
 .albums-nav ul {
   padding: 0;
-  margin: 0;
+  margin: auto;
   list-style: none;
   font-size: 0.8em;
 }
