@@ -85,11 +85,10 @@ footer {
   background-color: black;
   color: rgb(117, 67, 109);
   width: auto;
-  padding: 20px;
+  padding: 10px;
   position: sticky;
   bottom: 0;
   margin-top: auto;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
 }
 
