@@ -85,3 +85,10 @@ function handleTouchMove(evt) {
 function toUrlFriendlyName(name) {
   return name.replace(/\s+/g, "-");
 }
+
+export {openModal, setCurrentCategoryAndAlbum};
+
+function setCurrentCategoryAndAlbum(category, album) {
+  currentCategory = category;
+  currentAlbum = album;
+}

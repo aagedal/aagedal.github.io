@@ -1,200 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Truls Aagedal</title>
-  <meta name="author" content="Truls Aagedal" />
-  <meta name="description" content="This is the personal and official page of Truls Aagedal. Truls Aagedal is a photojournalist, hobby programmer, and film director. Among other things, the aforementioned person is interested in HDR photos, C2PA, and video games." />
-  <link rel="stylesheet" href="styles.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/site.webmanifest">
-  <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truls Aagedal</title>
+    <meta name="author" content="Truls Aagedal" />
+    <meta
+      name="description"
+      content="This is the personal and official page of Truls Aagedal. Truls Aagedal is a photojournalist, hobby programmer, and film director. Among other things, the aforementioned person is interested in HDR photos, C2PA, and video games."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- Main Navigation Bar -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#" id="aboutLink">About</a></li>
+        <li><a href="#" id="picturesLink">Photos</a></li>
+        <li><a href="#" id="videosLink">Film</a></li>
+        <li><a href="#" id="codeLink">Code</a></li>
+        <li><a href="#" id="contactLink">Thoughts</a></li>
+      </ul>
+    </nav>
 
-  <!-- Main Navigation Bar -->
-  <nav class="main-nav">
-    <ul>
-      <li><a href="#" id="aboutLink">About</a></li>
-      <li><a href="#" id="picturesLink">Photos</a></li>
-      <li><a href="#" id="videosLink">Film</a></li>
-      <li><a href="#" id="codeLink">Code</a></li>
-      <li><a href="#" id="contactLink">Thoughts</a></li>
-    </ul>
-  </nav>
+    <!-- Categories Navigation Bar -->
+    <nav class="categories-nav" id="categoriesNav" style="display: none">
+      <ul>
+        <li><a href="#" data-category="category1">Photojournalism</a></li>
+        <li><a href="#" data-category="category2">Oslo</a></li>
+        <li><a href="#" data-category="category3">Random</a></li>
+        <li><a href="#" data-category="category4">Vacation</a></li>
+      </ul>
+    </nav>
 
-  <!-- Categories Navigation Bar -->
-  <nav class="categories-nav" id="categoriesNav" style="display: none;">
-    <ul>
-      <li><a href="#" data-category="category1">Photojournalism</a></li>
-      <li><a href="#" data-category="category2">Oslo</a></li>
-      <li><a href="#" data-category="category3">Random</a></li>
-      <li><a href="#" data-category="category4">Vacation</a></li>
-    </ul>
-  </nav>
+    <!-- Albums Navigation Bar -->
+    <nav class="albums-nav" id="albumsNav" style="display: none">
+      <ul id="albumsList">
+        <!-- Albums will be dynamically populated here -->
+      </ul>
+    </nav>
 
-  <!-- Albums Navigation Bar -->
-  <nav class="albums-nav" id="albumsNav" style="display: none;">
-    <ul id="albumsList">
-      <!-- Albums will be dynamically populated here -->
-    </ul>
-  </nav>
+    <!-- Content Sections -->
+    <div id="content"></div>
 
-  <!-- Content Sections -->
-  <div id="content">
-    <section id="aboutSection" style="display: none;">
-      <div>
-        <div class="mainText">
-          <h1>Truls Aagedal</h1>
-          <p>WIP! This page is under development.</p>
-          <p>
-            Below is an AVIF HDR image. Rec.2020 color space. The image should
-            be signed with Content Credentials (C2PA).
-          </p>
-          <img src="./assets/img/test_HDR.avif" alt="HDR Image" />
-          <p>
-            Below is the same image in JPEG SDR, sRGB color space. The image
-            should be signed with Content Credentials (C2PA).
-          </p>
-          <img src="./assets/img/test_SDR.jpg" alt="SDR Image" />
-        </div>
-        <div class="profile">
-          <img src="./assets/img/profile_pic.jpg" alt="Profile Picture" />
-          <div>
-            <h2>About me</h2>
-            <p>
-              I am a photojournalist, documentary film director, technology
-              enthusiast, hobbyist programmer. Proponent of Content Credentials
-              and HDR video and images.
-            </p>
-            <p>
-              Born and currently living in Norway. 
-              Worked several years as a camera operator, video editor, and photojournalist for the two largest TV-broadcasters in Norway; NRK and TV 2. 
-              Right now working for the latter as a photojournalist and chief photo editor.
-            </p>
-            <p>
-              Also made a few documentaries, music videos, and short films.
-              I have a bachelor's degree in documentary film production, and another bachelor's degree in film and television studies.
-            </p>
-            <p>
-              When I'm not filling my hard drives with pictures, I spend a lot of time reading about technology or playing video games.
-              I also like swimming and going for walks, but only when the weather looks good.
-            </p>
-            <p>
-              My GitHub repositories can be found
-              <a href="https://github.com/aagedal">here</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Modal for full-screen images -->
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="fullImage" />
+    </div>
 
-    <section id="picturesSection" style="display: none;">
-      <div class="mainContent">
-        <h1>Pics</h1>
-        <h3 id="albumTitle"></h3>
-        <div id="imageContainer"></div>
-        <p></p>
-        <p>All photos on this site follow strict photojournalistic rules for editing:</p>
-        <ul class="rulesList">
-            <li><b>Allowed:</b> Exposure and other contrast adjustments. White balance and tint adjustments. Color to B&W conversion. </li>
-            <li><b>Minor adjustments allowed:</b> Sharpening, saturation, noise reduction, local adjustments of color and contrast.</li>
-            <li><b>Disallowed:</b> AI upscaling, AI noise reduction, spot healing, dust removal, geometric corrections, panoramic stitching, HDR image merging, artificial blurring.</li>
-            <li><b>Not recommended:</b> Lens correction: often makes noise look worse.</li>
-          </ul>
-        <p>
-          In general, the rules allow for changes that happen on an individual pixel level, 
-          but not changes that alter the pixel structure. 
-          The only exceptions being mild noise reduction to improve web compression, 
-          and manufacturer-standardized lens corrections because it can be considered an 
-          alternative native rendering of the image.
-        </p>
-        <p>
-          Local adjustments of color should never be adjusted to a 
-          degree where the color of a person or an object becomes misleading 
-          in terms of what that object looks like in real life. 
-          That said, cameras never capture the world exactly like our eyes and 
-          the viewer should assume that no pictorial representation of reality 
-          will 100% match the experience of seeing something in real life.
-        </p>
-        <p>
-          If possible, these images are published with C2PA signing to 
-          prove that the images are real, or at least as close to real as an image can be.
-          To check this, you can download the image and check it using 
-          <a href="https://contentcredentials.org/verify">this Content Credentials page</a>.
-        </p>
-        <p>
-          Images will also be published in HDR to more closely represent the dynamic 
-          range of the real world where the picture was captured. 
-          What you see may still be affected by the projection quality of your 
-          viewing device. So far, no camera can capture and no display can project 
-          the true dynamic range of the real world. And likely never will. 
-          Still, an HDR rendering of an image is a lot closer to representing 
-          perceptual reality than an SDR image.
-        </p>
-      </div>
-    </section>
-
-    <section id="videosSection" style="display: none;">
-      <div class="mainContent">
-        <h1>Film</h1>
-        <h2>Meningen med livet</h2>
-        <div style="padding:54.06% 0 0 0;position:relative;">
-          <iframe src="https://player.vimeo.com/video/533590088?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Meningen med livet (2016)"></iframe>
-        </div>
-
-        <h2>Fallow Season</h2>
-        <div style="padding:56.25% 0 0 0;position:relative;">
-          <iframe src="https://player.vimeo.com/video/182835783?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Fallow Season"></iframe>
-        </div>
-
-        <h2>Lifesavers</h2>
-        <div style="padding:42.5% 0 0 0;position:relative;">
-          <iframe src="https://player.vimeo.com/video/208404157?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write” style=“position:absolute;top:0;left:0;width:100%;height:100%;” title=“Lifesavers”>    <h2>Kjøp oss en øl</h2>
-            <div style="padding:56.25% 0 0 0;position:relative;">
-              <iframe src="https://player.vimeo.com/video/129345600?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Så kjøp oss en øl"></iframe>
-            </div>
-          </div>
-        </section>
-        
-        <section id="codeSection" style="display: none;">
-          <div class="mainContent">
-            <h1>Code</h1>
-            <h2><a href="https://github.com/aagedal/rust-fibonacci">Fibonacci Calculator</a> written in Rust</h2>
-            <h2><a href="https://github.com/aagedal/resolve_python_export_ftp">DaVinci Resolve to FTP</a> Python script</h2>
-          </div>
-        </section>
-        
-        <section id="contactSection" style="display: none;">
-          <div class="mainContent">
-            <h1>Echo</h1>
-            <p>
-              Read the echo of my thoughts and posts, or reach out to contact me by DM at
-              <a href="https://x.com/TrulsAagedal">Twitter</a> or
-              <a href="https://bsky.app/profile/aagedal.me">BlueSky</a>.
-            </p>
-          </div>
-        </section>
-        
-        <footer>
-          <p>All photos are copyrighted by Truls Aagedal ©️ 2024.</p>
-          <p>This page is made in collaboration with ChatGPT-4 and hosted on GitHub Pages.</p>
-        </footer>
-      </div>
-  <!-- Modal for full-screen images -->
-  <div id="imageModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="fullImage">
-  </div>
-  <!-- JavaScript Files -->
-  <script src="albumsData.js" type="module"></script>
-  <script src="navigation.js" type="module"></script>
-  <script src="modal.js" type="module"></script>
-</body>
+    <!-- JavaScript Files -->
+    <script src="albumsData.js" type="module"></script>
+    <script src="navigation.js" type="module"></script>
+    <script src="modal.js" type="module"></script>
+  </body>
 </html>

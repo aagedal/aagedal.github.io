@@ -76,11 +76,12 @@ a:hover {
 footer {
   background-color: black;
   color: rgb(117, 67, 109);
-  width: 500px;
+  width: 100%;
   position: fixed;
   bottom: 0;
   font-size: 0.7em;
   padding: 5px;
+  text-align: center;
 }
 
 img {
@@ -107,6 +108,10 @@ img:hover {
   max-width: 80%;
   min-width: 300px;
   padding: 1vw;
+}
+
+section {
+  margin-bottom: 100px;
 }
 
 .profile {
