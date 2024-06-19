@@ -154,8 +154,6 @@ img:hover {
   margin: auto;
   list-style: none;
   font-size: 0.8em;
-  display: flex;
-  justify-content: center;
 }
 
 .main-nav ul li,
