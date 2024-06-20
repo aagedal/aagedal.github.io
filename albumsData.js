@@ -3,14 +3,18 @@ const albumsData = {
     Crime: {
       description:
         "Some photojournalistic work from crime scenes. Gain Map HDR images.",
-      images: ["_TRA0429-1_EDIT_030.jpg"],
+      images: ["_TRA0429-1_EDIT_030.jpg", "TRA08965_EDIT_031.jpg"],
     },
     Politics: {
-      description: "A series depicting the theme of lost wings.",
+      description: "People talking a lot.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
-    Other: {
-      description: "A series depicting the theme of lost wings.",
+    Celebrities: {
+      description: "Red carpets and pretty dresses.",
+      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+    },
+    Others: {
+      description: "A random collection.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
   },
