@@ -5,11 +5,11 @@ const albumsData = {
         "Some photojournalistic work from crime scenes. Gain Map HDR images.",
       images: ["TRA04291.jpg", "TRA08965.jpg"],
     },
-    Politics: {
+    politics: {
       description: "People talking a lot.",
       images: ["TRA08026.jpg"],
     },
-    Celebrities: {
+    celebrities: {
       description: "Red carpets and pretty dresses.",
       images: [
         "TRA05798.jpg",
@@ -19,11 +19,11 @@ const albumsData = {
         "TRA08510.jpg",
       ],
     },
-    Portraits: {
+    portraits: {
       description: "Pictures of people.",
       images: ["TRA02590.jpg"],
     },
-    Other: {
+    other: {
       description: "A random collection.",
       images: ["TRA02089.jpg"],
     },
@@ -43,7 +43,7 @@ const albumsData = {
     },
   },
   category3: {
-    Svalbard: {
+    svalbard: {
       description: "A work related trip to Longyearbyen, Svalbard.",
       images: ["TAG03451.jpg", "TAG03472.jpg"],
     },
