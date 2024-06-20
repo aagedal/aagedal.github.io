@@ -3,7 +3,7 @@ const albumsData = {
     Crime: {
       description:
         "Some photojournalistic work from crime scenes. Gain Map HDR images.",
-      images: ["_TRA0429-1_EDIT_030.jpg", "TRA08965_EDIT_031.jpg"],
+      images: ["TRA04291_EDIT_030.jpg", "TRA08965_EDIT_031.jpg"],
     },
     Politics: {
       description: "People talking a lot.",
