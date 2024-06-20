@@ -1,10 +1,14 @@
 const albumsData = {
   category1: {
-    Oslo: {
+    Crime: {
       description: "A beautiful collection of photos from Oslo.",
+      images: ["_TRA0429-1_EDIT_030.jpg"],
+    },
+    Politics: {
+      description: "A series depicting the theme of lost wings.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
-    "Lost Wings": {
+    Other: {
       description: "A series depicting the theme of lost wings.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
