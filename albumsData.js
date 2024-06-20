@@ -7,43 +7,63 @@ const albumsData = {
     },
     Politics: {
       description: "People talking a lot.",
-      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+      images: ["TRA08026.jpg"],
     },
     Celebrities: {
       description: "Red carpets and pretty dresses.",
-      images: ["TRA05798.jpg", "TRA06151.jpg", "TRA06447.jpg"],
+      images: [
+        "TRA05798.jpg",
+        "TRA06151.jpg",
+        "TRA06447.jpg",
+        "TRA07917.jpg",
+        "TRA08510.jpg",
+      ],
     },
     Portraits: {
       description: "Pictures of people.",
       images: ["TRA02590.jpg"],
     },
-    Others: {
+    Other: {
       description: "A random collection.",
-      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+      images: ["TRA02089.jpg"],
     },
   },
   category2: {
-    album1: {
+    Street: {
       description: "First album of category 2.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
-    album2: {
+    Parks: {
       description: "Second album of category 2.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
-    album3: {
+    Other: {
       description: "Third album of category 2.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
   },
   category3: {
-    album1: {
-      description: "First album of category 3.",
-      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+    Svalbard: {
+      description: "A work related trip to Longyearbyen, Svalbard.",
+      images: ["TAG03451.jpg", "TAG03472.jpg"],
     },
   },
   category4: {
-    album1: {
+    Spain: {
+      description: "First album of category 4.",
+      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+    },
+    Italy: {
+      description: "First album of category 4.",
+      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+    },
+    Molde: {
+      description: "First album of category 4.",
+      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+    },
+  },
+  category5: {
+    test: {
       description: "First album of category 4.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
