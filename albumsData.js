@@ -1,7 +1,8 @@
 const albumsData = {
   category1: {
     Crime: {
-      description: "A beautiful collection of photos from Oslo.",
+      description:
+        "Some photojournalistic work from crime scenes. Gain Map HDR images.",
       images: ["_TRA0429-1_EDIT_030.jpg"],
     },
     Politics: {
