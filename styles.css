@@ -101,6 +101,7 @@ img:hover {
   max-width: 55%;
   min-width: 300px;
   margin: 20px;
+  margin-bottom: 100px;
 }
 
 .mainContent {
@@ -110,23 +111,21 @@ img:hover {
   padding: 1vw;
 }
 
-.content {
-  margin-bottom: 100px;
+.mainContent {
+  margin-bottom: 150px;
 }
 
-.profile {
-  float: right;
-  max-width: 33%;
-  min-width: 350px;
-  margin-left: auto;
-  margin-right: 20px;
-  margin-top: 80px;
-  font-size: 0.8em;
+.aboutText {
+  margin-right: 30px;
+  padding-right: 30px;
+  max-width: 600px;
 }
 
-.profile img {
-  max-height: 50svh;
+.profile_pic {
+  max-height: 80vh;
   max-width: fit-content;
+  float: right;
+  margin-bottom: 50px;
 }
 
 .rulesList {
