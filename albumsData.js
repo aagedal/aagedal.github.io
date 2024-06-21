@@ -39,7 +39,7 @@ const albumsData = {
   },
   category2: {
     Street: {
-      description: "First album of category 2.",
+      description: "Some pictures from the street of Oslo.",
       images: [
         "TRA08676.jpg",
         "TRA0229.jpg",
@@ -71,7 +71,7 @@ const albumsData = {
       ],
     },
     Parks: {
-      description: "Second album of category 2.",
+      description: "Some pictures from parks in Oslo.",
       images: [
         "TRA0271.jpg",
         "TRA1379.jpg",
@@ -96,7 +96,7 @@ const albumsData = {
       ],
     },
     Other: {
-      description: "Third album of category 2.",
+      description: "Some other pictures..",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
   },
@@ -131,6 +131,10 @@ const albumsData = {
     Test: {
       description: "First album of category 4.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+    },
+    "Body Art": {
+      description: "Bodyart (possibly nsfw).",
+      images: [""],
     },
   },
 };
