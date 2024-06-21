@@ -1,15 +1,15 @@
 const albumsData = {
   category1: {
-    crime: {
+    Crime: {
       description:
         "Some photojournalistic work from crime scenes. Gain Map HDR images.",
       images: ["TRA04291.jpg", "TRA08965.jpg"],
     },
-    politics: {
+    Politics: {
       description: "People talking a lot.",
-      images: ["TRA08026.jpg"],
+      images: ["TRA08026.jpg", "TRA02841.jpg", "TRA03388.jpg"],
     },
-    celebrities: {
+    Celebrities: {
       description: "Red carpets and pretty dresses.",
       images: [
         "TRA05798.jpg",
@@ -17,15 +17,24 @@ const albumsData = {
         "TRA06447.jpg",
         "TRA07917.jpg",
         "TRA08510.jpg",
+        "TRA07476.jpg",
       ],
     },
-    portraits: {
+    Portraits: {
       description: "Pictures of people.",
-      images: ["TRA02590.jpg"],
+      images: [
+        "TRA02590.jpg",
+        "TRA00048.jpg",
+        "TRA02458.jpg",
+        "TRA05487.jpg",
+        "TRA07433.jpg",
+        "TRA08748.jpg",
+        "TRA09087.jpg",
+      ],
     },
-    other: {
+    Other: {
       description: "A random collection.",
-      images: ["TRA02089.jpg"],
+      images: ["TRA02089.jpg", "TRA00743.jpg", "TRA02178.jpg"],
     },
   },
   category2: {
@@ -35,6 +44,18 @@ const albumsData = {
     },
     Parks: {
       description: "Second album of category 2.",
+      images: [
+        "TRA0271.jpg",
+        "TRA1379.jpg",
+        "TRA1379.jpg",
+        "TRA03956.jpg",
+        "TRA01343.jpg",
+        "TRA1975.jpg",
+        "TRA1981.jpg",
+      ],
+    },
+    Pride: {
+      description: "Some pictures from Oslo Pride 2023.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
     Other: {
@@ -43,9 +64,16 @@ const albumsData = {
     },
   },
   category3: {
-    svalbard: {
+    Svalbard: {
       description: "A work related trip to Longyearbyen, Svalbard.",
-      images: ["TAG03451.jpg", "TAG03472.jpg"],
+      images: [
+        "TAG03451.jpg",
+        "TAG03472.jpg",
+        "TAG02358.jpg",
+        "TAG02362.jpg",
+        "TAG02919.jpg",
+        "TAG02996.jpg",
+      ],
     },
   },
   category4: {
@@ -59,11 +87,11 @@ const albumsData = {
     },
     Molde: {
       description: "First album of category 4.",
-      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
+      images: ["TRA03559.jpg"],
     },
   },
   category5: {
-    test: {
+    Test: {
       description: "First album of category 4.",
       images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
     },
