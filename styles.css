@@ -122,11 +122,12 @@ img:hover {
 }
 
 .profile_pic {
-  max-height: 60vh;
+  max-height: 50vh;
   max-width: fit-content;
   float: right;
   margin-bottom: 50px;
   padding-left: 30px;
+  border-radius: 5px;
 }
 
 .rulesList {
