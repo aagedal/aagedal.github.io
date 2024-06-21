@@ -75,7 +75,6 @@ const albumsData = {
       images: [
         "TRA0271.jpg",
         "TRA1379.jpg",
-        "TRA1379.jpg",
         "TRA03956.jpg",
         "TRA01343.jpg",
         "TRA1975.jpg",
