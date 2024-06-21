@@ -123,6 +123,7 @@ img:hover {
 
 .profile_pic {
   max-height: 60vh;
+  max-width: fit-content;
   float: right;
   margin-bottom: 50px;
   padding-left: 30px;
