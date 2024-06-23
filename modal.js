@@ -83,7 +83,7 @@ function handleTouchMove(evt) {
 }
 
 function toUrlFriendlyName(name) {
-  return name.replace(/\s+/g, "-");
+  return name.replace(/\s+/g, "-").toLowerCase();
 }
 
 export {openModal, setCurrentCategoryAndAlbum};
