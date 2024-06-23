@@ -7,7 +7,17 @@ const albumsData = {
     },
     Politics: {
       description: "People talking a lot.",
-      images: ["TRA08026.jpg", "TRA02841.jpg", "TRA03388.jpg"],
+      images: [
+        "DSC00500.jpg",
+        "DSC8946.jpg",
+        "DSC01246.jpg",
+        "TRA08026.jpg",
+        "DSC00589.jpg",
+        "TRA1666.jpg",
+        "TRA02841.jpg",
+        "DSC02020.jpg",
+        "TRA03388.jpg",
+      ],
     },
     Celebrities: {
       description: "Red carpets and pretty dresses.",
