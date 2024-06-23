@@ -130,6 +130,11 @@ img:hover {
   border-radius: 5px;
 }
 
+.pictureNote {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
 .rulesList {
   font-size: 1em;
   color: rgb(166, 156, 149);
