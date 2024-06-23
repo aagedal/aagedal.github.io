@@ -1,12 +1,11 @@
 const albumsData = {
   category1: {
     Crime: {
-      description:
-        "Some photojournalistic work from crime scenes. Gain Map HDR images.",
+      description: "Some photojournalistic work from crime scenes.",
       images: ["TRA04291.jpg", "TRA08965.jpg", "TRA08492.jpg", "TRA08992.jpg"],
     },
     Politics: {
-      description: "People talking a lot.",
+      description: "People talking a lot, mostly about important stuff.",
       images: [
         "DSC00500.jpg",
         "DSC8946.jpg",
