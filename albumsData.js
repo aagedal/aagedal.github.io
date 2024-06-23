@@ -217,7 +217,22 @@ const albumsData = {
     "Body Art": {
       description:
         "Body and soul, in artistic form. May be somewhat NSFW, but probably not.",
-      images: ["TRA9677.jpg"],
+      images: ["TRA9677.jpg", "TRA9333.jpg", "TRA9711.jpg"],
+    },
+    Me: {
+      description: "Pictures of myself; Truls Aagedal.",
+      images: [
+        "TRA00298.jpg",
+        "DSC4756.jpg",
+        "TRA00981.jpg",
+        "DSC4541.jpg",
+        "DSC4641.jpg",
+        "DSC8478.jpg",
+        "DSC7021.jpg",
+        "DSC08342.jpg",
+        "DSC3617.jpg",
+        "TAG00125.jpg",
+      ],
     },
     Other: {
       description: "Asorted stuff. WIP. Testing. Not sure where to put these.",
