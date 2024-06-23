@@ -104,10 +104,6 @@ const albumsData = {
         "TRA9112.jpg",
       ],
     },
-    Other: {
-      description: "Some other pictures..",
-      images: ["TRA02080.jpeg", "TRA00129.jpeg", "TRA02576-2.jpeg"],
-    },
   },
   category3: {
     Svalbard: {
